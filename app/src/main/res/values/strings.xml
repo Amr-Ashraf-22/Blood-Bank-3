@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+
+    <!--     fragment_login   -->
+    <string name="frag_login_et_phone">Phone</string>
+    <string name="frag_login_et_password">Password</string>
+    <string name="frag_login_chk_bx_remember_me">Remember Me</string>
+    <string name="frag_login_tv_forgot_pass">Forgot your password ?</string>
+    <string name="frag_login_btn_login">Login</string>
+    <string name="frag_login_tv_register">Don\'t have an Account? You can Register here</string>
+    <!-- Error -->
+    <string name="frag_login_et_empty_phone">Please enter your Phone</string>
+    <string name="frag_login_et_empty_password">Please enter your Password</string>
+
+    <!--     item_slider   -->
+    <string name="item_slider_tv_text">Lorem Epsom is a virtual template that is placed in the designs to be presented to the customer to allow him to imagine how to put the texts inside the designs, whether they are printed &#x2026; brochures or flyer designs for example &#x2026; or site models</string>
+
+    <!--     fragment_register   -->
+    <string name="frag_register_tv_register">Create a New Account</string>
+    <string name="frag_register_et_name">Name</string>
+    <string name="frag_register_et_email">Email</string>
+    <string name="frag_register_et_birth_date">Date of Birth</string>
+    <string name="frag_register_sp_blood_type">Blood Type</string>
+    <string name="frag_register_et_last_donation">The Last Date for Donation</string>
+    <string name="frag_register_sp_governorate">Governorate</string>
+    <string name="frag_register_sp_city">City</string>
+    <string name="frag_register_phone">Phone Number</string>
+    <string name="frag_register_password">Password</string>
+    <string name="frag_register_confirm_password">Confirm Password</string>
+    <string name="frag_register_btn_register">Register</string>
+    <!-- Error -->
+    <string name="frag_register_et_empty_name">Please enter your Name</string>
+    <string name="frag_register_et_empty_email">Please enter your Email</string>
+    <string name="frag_register_et_empty_birth_date">Please enter your Date of Birth</string>
+    <string name="frag_register_sp_empty_blood_type">Please Choose your Blood Type</string>
+    <string name="frag_register_et_empty_last_donation">Please enter your Last Donation Date</string>
+    <string name="frag_register_sp_empty_governorate">Please Choose Governorate</string>
+    <string name="frag_register_sp_empty_city">Please Choose City</string>
+    <string name="frag_register_et_empty_phone">Please enter your Phone</string>
+    <string name="frag_register_et_empty_password">Please enter your Password</string>
+    <string name="frag_register_et_empty_confirm_password">Please Repeat your Password</string>
+    <string name="frag_register_password_not_match">Passwords are not equal</string>
+    <string name="frag_register_phone_not_valid">Phone Must be 11 Number</string>
+    <string name="frag_register_date_not_valid">Date Must be as this format yyyy-MM-dd</string>
+
+    <!--     fragment_forgot_pass   -->
+    <string name="frag_forgot_pass_btn_send">Send</string>
+    <string name="frag_forgot_pass_et_phone">Phone</string>
+    <!-- Error -->
+    <string name="frag_forgot_pass_et_empty_phone">Please enter your email</string>
+    <string name="frag_forgot_pass_et_phone_not_valid">Please enter a valid Phone Number</string>
+
+    <!--     fragment_reset_pass   -->
+    <string name="frag_reset_pass_et_code">Validation Code</string>
+    <string name="frag_reset_pass_et_new_password">New Password</string>
+    <string name="frag_reset_pass_et_confirm_new_password">Confirm New Password</string>
+    <string name="frag_reset_pass_et_change">Change</string>
+    <string name="frag_reset_pass_et_empty_code">Please enter the verification code</string>
+    <string name="frag_reset_pass_et_empty_new_pass">Please enter the new password</string>
+    <string name="frag_reset_pass_et_empty_new_confirm_pass">Please repeat the new password</string>
+    <string name="frag_reset_pass_password_not_match">Passwords are not equal</string>
+    <string name="frag_reset_pass_code_not_valid">Validation Code is not valid</string>
+
+    <!--     fragment_home   -->
+    <string name="frag_home_tl_articles">Articles</string>
+    <string name="frag_home_tl_donations">Donation Requests</string>
+
+    <!--    bottom_navigation   -->
+    <string name="bottom_navigation_item_home">Home</string>
+    <string name="bottom_navigation_item_profile">Profile</string>
+    <string name="bottom_navigation_item_notification">Notification</string>
+    <string name="bottom_navigation_item_more">More</string>
+
+    <!--    fragment_post   -->
+    <string name="fragment_post_et_search_word">Enter the search word here</string>
+    <string name="fragment_post_sp_category">Category</string>
+
+    <string-array name="category">
+        <item>GLOFSJHJ</item>
+        <item>HHH</item>
+        <item>KKK</item>
+    </string-array>
+
+
+</resources>

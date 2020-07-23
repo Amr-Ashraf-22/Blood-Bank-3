@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/user_cycle_bg"
+    android:layout_gravity="center_horizontal"
+    android:paddingEnd="@dimen/_20sdp"
+    android:paddingStart="@dimen/_20sdp">
+
+    <TextView
+        android:id="@+id/fragment_register_tv_forget_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:textSize="@dimen/_15ssp"
+        android:gravity="center"
+        android:text="@string/frag_register_tv_register"
+        android:textColor="@color/white"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_tv_forget_pass"
+        android:drawableStart="@drawable/register_name"
+        android:hint="@string/frag_register_et_name"
+        android:inputType="textPersonName"
+        style="@style/frag_register_et_style"/>
+
+    <EditText
+        android:id="@+id/fragment_register_et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_name"
+        android:drawableStart="@drawable/register_email"
+        android:hint="@string/frag_register_et_email"
+        android:inputType="textEmailAddress"
+        style="@style/frag_register_et_style"/>
+
+    <EditText
+        android:id="@+id/fragment_register_et_birth_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_email"
+        android:drawableStart="@drawable/register_calender_date"
+        android:clickable="true"
+        android:focusable="false"
+        android:maxLength="10"
+        android:hint="@string/frag_register_et_birth_date"
+        android:inputType="date"
+        style="@style/frag_register_et_style"
+         />
+
+    <Spinner
+        android:id="@+id/fragment_register_sp_blood_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_birth_date"
+        android:background="@drawable/register_blood_type_bg"
+        style="@style/frag_register_sp_style"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_last_donation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_sp_blood_type"
+        android:drawableStart="@drawable/register_calender_date"
+        android:clickable="true"
+        android:focusable="false"
+        android:maxLength="10"
+        android:hint="@string/frag_register_et_last_donation"
+        android:inputType="date"
+        style="@style/frag_register_et_style"/>
+
+    <Spinner
+        android:id="@+id/fragment_register_sp_governorate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_last_donation"
+        android:background="@drawable/register_governorate_city_bg"
+        style="@style/frag_register_sp_style"
+        />
+
+    <Spinner
+        android:id="@+id/fragment_register_sp_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_sp_governorate"
+        android:background="@drawable/register_governorate_city_bg"
+        style="@style/frag_register_sp_style"
+        />
+
+    <EditText
+        android:id="@+id/fragment_register_et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_sp_city"
+        android:drawableStart="@drawable/register_phone"
+        android:hint="@string/frag_register_phone"
+        android:maxLength="11"
+        android:inputType="phone"
+        style="@style/frag_register_et_style"/>
+
+    <EditText
+        android:id="@+id/fragment_register_et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_phone"
+        android:drawableStart="@drawable/register_password"
+        android:hint="@string/frag_register_password"
+        android:inputType="textPassword"
+        style="@style/frag_register_et_style"/>
+
+    <EditText
+        android:id="@+id/fragment_register_et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_password"
+        android:drawableStart="@drawable/register_password"
+        android:hint="@string/frag_register_confirm_password"
+        android:inputType="textPassword"
+        style="@style/frag_register_et_style"/>
+
+    <Button
+        android:id="@+id/fragment_register_btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_register_et_confirm_password"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:background="@drawable/round_gray_btn"
+        android:text="@string/frag_register_btn_register"
+        android:textColor="@color/red_text_color"
+        android:textSize="@dimen/_15ssp" />
+
+</RelativeLayout>
